@@ -58,3 +58,7 @@
 /vpxenc
 /vpxenc.dox
 TAGS
+
+*.VC.db
+*.opendb
+.vs/
