@@ -67,6 +67,8 @@
 /vpxenc.dox
 TAGS
 
+.vs/
 *.VC.db
 *.opendb
-.vs/
+*.sdf
+*.vcxproj.user
