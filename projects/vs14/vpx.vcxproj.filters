@@ -54,9 +54,6 @@
     <ClCompile Include="..\..\vp8\common\idct_blk.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\vp8\common\loopfilter.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\vp8\common\loopfilter_filters.c">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -87,9 +84,6 @@
     <ClCompile Include="..\..\vp8\common\rtcd.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\vp8\common\sad_c.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\vp8\common\setupintrarecon.c">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -97,9 +91,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\..\vp8\common\treecoder.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\vp8\common\variance_c.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\..\vp8\common\x86\filter_x86.c">
@@ -112,18 +103,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\..\vp8\common\x86\loopfilter_x86.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\vp8\common\x86\recon_wrapper_sse2.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\vp8\common\x86\variance_mmx.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\vp8\common\x86\variance_sse2.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\vp8\common\x86\variance_ssse3.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\..\vp8\common\x86\vp8_asm_stubs.c">
@@ -195,9 +174,6 @@
     <ClCompile Include="..\..\vp8\encoder\picklpf.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\vp8\encoder\quantize.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\vp8\encoder\ratectrl.c">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -217,9 +193,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\..\vp8\encoder\x86\denoising_sse2.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\vp8\encoder\x86\quantize_sse2.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\..\vp8\encoder\x86\quantize_sse4.c">
@@ -249,9 +222,6 @@
     <ClCompile Include="..\..\vp9\common\vp9_common_data.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\vp9\common\vp9_convolve.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\vp9\common\vp9_debugmodes.c">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -276,16 +246,10 @@
     <ClCompile Include="..\..\vp9\common\vp9_loopfilter.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\vp9\common\vp9_loopfilter_filters.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\vp9\common\vp9_mvref_common.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\..\vp9\common\vp9_pred_common.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\vp9\common\vp9_prob.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\..\vp9\common\vp9_quant_common.c">
@@ -309,37 +273,13 @@
     <ClCompile Include="..\..\vp9\common\vp9_seg_common.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\vp9\common\vp9_thread.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\vp9\common\vp9_thread_common.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\..\vp9\common\vp9_tile_common.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\vp9\common\x86\vp9_asm_stubs.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\vp9\common\x86\vp9_high_loopfilter_intrin_sse2.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\vp9\common\x86\vp9_idct_intrin_sse2.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\vp9\common\x86\vp9_idct_intrin_ssse3.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\vp9\common\x86\vp9_loopfilter_intrin_avx2.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\vp9\common\x86\vp9_loopfilter_intrin_sse2.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\vp9\common\x86\vp9_subpixel_8t_intrin_avx2.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\vp9\common\x86\vp9_subpixel_8t_intrin_ssse3.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\..\vp9\decoder\vp9_decodeframe.c">
@@ -360,12 +300,6 @@
     <ClCompile Include="..\..\vp9\decoder\vp9_dthread.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\vp9\decoder\vp9_reader.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\vp9\decoder\vp9_read_bit_buffer.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\vp9\encoder\vp9_aq_complexity.c">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -373,9 +307,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\..\vp9\encoder\vp9_aq_variance.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\vp9\encoder\vp9_avg.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\..\vp9\encoder\vp9_bitstream.c">
@@ -441,9 +372,6 @@
     <ClCompile Include="..\..\vp9\encoder\vp9_resize.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\vp9\encoder\vp9_sad.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\vp9\encoder\vp9_segmentation.c">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -468,33 +396,6 @@
     <ClCompile Include="..\..\vp9\encoder\vp9_treewriter.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\vp9\encoder\vp9_variance.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\vp9\encoder\vp9_writer.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\vp9\encoder\vp9_write_bit_buffer.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\vp9\encoder\x86\vp9_avg_intrin_sse2.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\vp9\encoder\x86\vp9_dct32x32_avx2.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\vp9\encoder\x86\vp9_dct32x32_sse2.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\vp9\encoder\x86\vp9_dct_avx2.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\vp9\encoder\x86\vp9_dct_impl_sse2.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\vp9\encoder\x86\vp9_dct_sse2.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\vp9\encoder\x86\vp9_dct_ssse3.c">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -504,31 +405,7 @@
     <ClCompile Include="..\..\vp9\encoder\x86\vp9_highbd_block_error_intrin_sse2.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\vp9\encoder\x86\vp9_highbd_quantize_intrin_sse2.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\vp9\encoder\x86\vp9_highbd_variance_sse2.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\vp9\encoder\x86\vp9_quantize_sse2.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\vp9\encoder\x86\vp9_sad4d_intrin_avx2.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\vp9\encoder\x86\vp9_sad_intrin_avx2.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\vp9\encoder\x86\vp9_subpel_variance_impl_intrin_avx2.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\vp9\encoder\x86\vp9_variance_avx2.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\vp9\encoder\x86\vp9_variance_impl_intrin_avx2.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\vp9\encoder\x86\vp9_variance_sse2.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\..\vp9\vp9_cx_iface.c">
@@ -552,9 +429,6 @@
     <ClCompile Include="..\..\vpx\src\vpx_image.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\vpx\src\vpx_psnr.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\vpx_mem\vpx_mem.c">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -574,6 +448,156 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="vpx_config.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vp8\common\copy_c.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vp8\common\vp8_loopfilter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vp8\encoder\vp8_quantize.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vp8\encoder\x86\vp8_quantize_sse2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vp9\encoder\vp9_alt_ref_aq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vp9\encoder\vp9_aq_360.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vp9\encoder\vp9_blockiness.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vp9\encoder\vp9_noise_estimate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vp9\encoder\x86\vp9_dct_intrin_sse2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vp9\encoder\x86\vp9_diamond_search_sad_avx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vpx_dsp\add_noise.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vpx_dsp\avg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vpx_dsp\bitreader.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vpx_dsp\bitreader_buffer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vpx_dsp\bitwriter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vpx_dsp\bitwriter_buffer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vpx_dsp\deblock.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vpx_dsp\fwd_txfm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vpx_dsp\intrapred.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vpx_dsp\inv_txfm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vpx_dsp\loopfilter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vpx_dsp\prob.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vpx_dsp\psnr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vpx_dsp\quantize.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vpx_dsp\sad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vpx_dsp\subtract.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vpx_dsp\sum_squares.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vpx_dsp\variance.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vpx_dsp\vpx_convolve.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vpx_dsp\vpx_dsp_rtcd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vpx_dsp\x86\avg_intrin_sse2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vpx_dsp\x86\fwd_txfm_avx2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vpx_dsp\x86\fwd_txfm_sse2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vpx_dsp\x86\highbd_loopfilter_sse2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vpx_dsp\x86\highbd_quantize_intrin_sse2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vpx_dsp\x86\highbd_variance_sse2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vpx_dsp\x86\inv_txfm_sse2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vpx_dsp\x86\loopfilter_avx2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vpx_dsp\x86\loopfilter_sse2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vpx_dsp\x86\quantize_sse2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vpx_dsp\x86\sad4d_avx2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vpx_dsp\x86\sad_avx2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vpx_dsp\x86\sum_squares_sse2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vpx_dsp\x86\variance_avx2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vpx_dsp\x86\variance_impl_avx2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vpx_dsp\x86\variance_sse2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vpx_dsp\x86\vpx_asm_stubs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vpx_dsp\x86\vpx_subpixel_8t_intrin_avx2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vpx_dsp\x86\vpx_subpixel_8t_intrin_ssse3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vpx_util\vpx_thread.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -630,9 +654,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\vp8\common\treecoder.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\vp8\common\variance.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\vp8\common\x86\filter_x86.h">
@@ -737,12 +758,6 @@
     <ClInclude Include="..\..\vp9\common\vp9_common_data.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\vp9\common\vp9_convolve.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\vp9\common\vp9_default_coef_probs.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\vp9\common\vp9_entropy.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -779,13 +794,7 @@
     <ClInclude Include="..\..\vp9\common\vp9_ppflags.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\vp9\common\vp9_pragmas.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\vp9\common\vp9_pred_common.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\vp9\common\vp9_prob.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\vp9\common\vp9_quant_common.h">
@@ -797,9 +806,6 @@
     <ClInclude Include="..\..\vp9\common\vp9_reconintra.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\vp9\common\vp9_sadmxn.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\vp9\common\vp9_scale.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -809,19 +815,10 @@
     <ClInclude Include="..\..\vp9\common\vp9_seg_common.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\vp9\common\vp9_systemdependent.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\vp9\common\vp9_thread.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\vp9\common\vp9_thread_common.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\vp9\common\vp9_tile_common.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\vp9\common\x86\vp9_idct_intrin_sse2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\vp9\decoder\vp9_decodeframe.h">
@@ -840,12 +837,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\vp9\decoder\vp9_dthread.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\vp9\decoder\vp9_reader.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\vp9\decoder\vp9_read_bit_buffer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\vp9\encoder\vp9_aq_complexity.h">
@@ -867,9 +858,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\vp9\encoder\vp9_cost.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\vp9\encoder\vp9_dct.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\vp9\encoder\vp9_denoiser.h">
@@ -950,18 +938,6 @@
     <ClInclude Include="..\..\vp9\encoder\vp9_treewriter.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\vp9\encoder\vp9_variance.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\vp9\encoder\vp9_writer.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\vp9\encoder\vp9_write_bit_buffer.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\vp9\encoder\x86\vp9_dct_sse2.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\vp9\vp9_iface_common.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -971,13 +947,7 @@
     <ClInclude Include="..\..\vpx_mem\include\vpx_mem_intrnl.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\vpx_mem\include\vpx_mem_tracker.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\vpx_mem\vpx_mem.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\vpx_ports\asm_offsets.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\vpx_ports\config.h">
@@ -1034,6 +1004,111 @@
     <ClInclude Include="x86_64\vpx_scale_rtcd.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\vp8\common\reconintra.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vp9\encoder\vp9_alt_ref_aq.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vp9\encoder\vp9_aq_360.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vp9\encoder\vp9_noise_estimate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vp9\vp9_dx_iface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vpx_dsp\bitreader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vpx_dsp\bitreader_buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vpx_dsp\bitwriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vpx_dsp\bitwriter_buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vpx_dsp\fwd_txfm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vpx_dsp\inv_txfm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vpx_dsp\postproc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vpx_dsp\prob.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vpx_dsp\psnr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vpx_dsp\quantize.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vpx_dsp\txfm_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vpx_dsp\variance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vpx_dsp\vpx_convolve.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vpx_dsp\vpx_dsp_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vpx_dsp\vpx_filter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vpx_dsp\x86\convolve.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vpx_dsp\x86\fdct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vpx_dsp\x86\fwd_dct32x32_impl_avx2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vpx_dsp\x86\fwd_dct32x32_impl_sse2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vpx_dsp\x86\fwd_txfm_impl_sse2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vpx_dsp\x86\fwd_txfm_sse2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vpx_dsp\x86\inv_txfm_sse2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vpx_dsp\x86\txfm_common_sse2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vpx_ports\bitops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vpx_ports\msvc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vpx_ports\system_state.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vpx_util\endian_inl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vpx_util\vpx_thread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="x86\vpx_dsp_rtcd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="x86_64\vpx_dsp_rtcd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="vpx.def">
@@ -1053,16 +1128,10 @@
     <YASM Include="..\..\vp8\common\x86\idctllm_sse2.asm">
       <Filter>Source Files</Filter>
     </YASM>
-    <YASM Include="..\..\vp8\common\x86\iwalsh_mmx.asm">
-      <Filter>Source Files</Filter>
-    </YASM>
     <YASM Include="..\..\vp8\common\x86\iwalsh_sse2.asm">
       <Filter>Source Files</Filter>
     </YASM>
     <YASM Include="..\..\vp8\common\x86\loopfilter_block_sse2_x86_64.asm">
-      <Filter>Source Files</Filter>
-    </YASM>
-    <YASM Include="..\..\vp8\common\x86\loopfilter_mmx.asm">
       <Filter>Source Files</Filter>
     </YASM>
     <YASM Include="..\..\vp8\common\x86\loopfilter_sse2.asm">
@@ -1071,31 +1140,10 @@
     <YASM Include="..\..\vp8\common\x86\mfqe_sse2.asm">
       <Filter>Source Files</Filter>
     </YASM>
-    <YASM Include="..\..\vp8\common\x86\postproc_mmx.asm">
-      <Filter>Source Files</Filter>
-    </YASM>
-    <YASM Include="..\..\vp8\common\x86\postproc_sse2.asm">
-      <Filter>Source Files</Filter>
-    </YASM>
     <YASM Include="..\..\vp8\common\x86\recon_mmx.asm">
       <Filter>Source Files</Filter>
     </YASM>
     <YASM Include="..\..\vp8\common\x86\recon_sse2.asm">
-      <Filter>Source Files</Filter>
-    </YASM>
-    <YASM Include="..\..\vp8\common\x86\sad_mmx.asm">
-      <Filter>Source Files</Filter>
-    </YASM>
-    <YASM Include="..\..\vp8\common\x86\sad_sse2.asm">
-      <Filter>Source Files</Filter>
-    </YASM>
-    <YASM Include="..\..\vp8\common\x86\sad_sse3.asm">
-      <Filter>Source Files</Filter>
-    </YASM>
-    <YASM Include="..\..\vp8\common\x86\sad_sse4.asm">
-      <Filter>Source Files</Filter>
-    </YASM>
-    <YASM Include="..\..\vp8\common\x86\sad_ssse3.asm">
       <Filter>Source Files</Filter>
     </YASM>
     <YASM Include="..\..\vp8\common\x86\subpixel_mmx.asm">
@@ -1105,18 +1153,6 @@
       <Filter>Source Files</Filter>
     </YASM>
     <YASM Include="..\..\vp8\common\x86\subpixel_ssse3.asm">
-      <Filter>Source Files</Filter>
-    </YASM>
-    <YASM Include="..\..\vp8\common\x86\variance_impl_mmx.asm">
-      <Filter>Source Files</Filter>
-    </YASM>
-    <YASM Include="..\..\vp8\common\x86\variance_impl_sse2.asm">
-      <Filter>Source Files</Filter>
-    </YASM>
-    <YASM Include="..\..\vp8\common\x86\variance_impl_ssse3.asm">
-      <Filter>Source Files</Filter>
-    </YASM>
-    <YASM Include="..\..\vp8\encoder\x86\dct_mmx.asm">
       <Filter>Source Files</Filter>
     </YASM>
     <YASM Include="..\..\vp8\encoder\x86\dct_sse2.asm">
@@ -1131,100 +1167,16 @@
     <YASM Include="..\..\vp8\encoder\x86\quantize_mmx.asm">
       <Filter>Source Files</Filter>
     </YASM>
-    <YASM Include="..\..\vp8\encoder\x86\subtract_mmx.asm">
-      <Filter>Source Files</Filter>
-    </YASM>
-    <YASM Include="..\..\vp8\encoder\x86\subtract_sse2.asm">
-      <Filter>Source Files</Filter>
-    </YASM>
     <YASM Include="..\..\vp8\encoder\x86\temporal_filter_apply_sse2.asm">
-      <Filter>Source Files</Filter>
-    </YASM>
-    <YASM Include="..\..\vp9\common\x86\vp9_copy_sse2.asm">
-      <Filter>Source Files</Filter>
-    </YASM>
-    <YASM Include="..\..\vp9\common\x86\vp9_high_intrapred_sse2.asm">
-      <Filter>Source Files</Filter>
-    </YASM>
-    <YASM Include="..\..\vp9\common\x86\vp9_high_subpixel_8t_sse2.asm">
-      <Filter>Source Files</Filter>
-    </YASM>
-    <YASM Include="..\..\vp9\common\x86\vp9_high_subpixel_bilinear_sse2.asm">
-      <Filter>Source Files</Filter>
-    </YASM>
-    <YASM Include="..\..\vp9\common\x86\vp9_idct_ssse3_x86_64.asm">
-      <Filter>Source Files</Filter>
-    </YASM>
-    <YASM Include="..\..\vp9\common\x86\vp9_intrapred_sse2.asm">
-      <Filter>Source Files</Filter>
-    </YASM>
-    <YASM Include="..\..\vp9\common\x86\vp9_intrapred_ssse3.asm">
-      <Filter>Source Files</Filter>
-    </YASM>
-    <YASM Include="..\..\vp9\common\x86\vp9_loopfilter_mmx.asm">
       <Filter>Source Files</Filter>
     </YASM>
     <YASM Include="..\..\vp9\common\x86\vp9_mfqe_sse2.asm">
       <Filter>Source Files</Filter>
     </YASM>
-    <YASM Include="..\..\vp9\common\x86\vp9_subpixel_8t_sse2.asm">
-      <Filter>Source Files</Filter>
-    </YASM>
-    <YASM Include="..\..\vp9\common\x86\vp9_subpixel_8t_ssse3.asm">
-      <Filter>Source Files</Filter>
-    </YASM>
-    <YASM Include="..\..\vp9\common\x86\vp9_subpixel_bilinear_sse2.asm">
-      <Filter>Source Files</Filter>
-    </YASM>
-    <YASM Include="..\..\vp9\common\x86\vp9_subpixel_bilinear_ssse3.asm">
-      <Filter>Source Files</Filter>
-    </YASM>
-    <YASM Include="..\..\vp9\encoder\x86\vp9_dct_mmx.asm">
-      <Filter>Source Files</Filter>
-    </YASM>
-    <YASM Include="..\..\vp9\encoder\x86\vp9_dct_ssse3_x86_64.asm">
-      <Filter>Source Files</Filter>
-    </YASM>
     <YASM Include="..\..\vp9\encoder\x86\vp9_error_sse2.asm">
       <Filter>Source Files</Filter>
     </YASM>
-    <YASM Include="..\..\vp9\encoder\x86\vp9_highbd_sad4d_sse2.asm">
-      <Filter>Source Files</Filter>
-    </YASM>
-    <YASM Include="..\..\vp9\encoder\x86\vp9_highbd_sad_sse2.asm">
-      <Filter>Source Files</Filter>
-    </YASM>
-    <YASM Include="..\..\vp9\encoder\x86\vp9_highbd_subpel_variance.asm">
-      <Filter>Source Files</Filter>
-    </YASM>
-    <YASM Include="..\..\vp9\encoder\x86\vp9_highbd_variance_impl_sse2.asm">
-      <Filter>Source Files</Filter>
-    </YASM>
     <YASM Include="..\..\vp9\encoder\x86\vp9_quantize_ssse3_x86_64.asm">
-      <Filter>Source Files</Filter>
-    </YASM>
-    <YASM Include="..\..\vp9\encoder\x86\vp9_sad4d_sse2.asm">
-      <Filter>Source Files</Filter>
-    </YASM>
-    <YASM Include="..\..\vp9\encoder\x86\vp9_sad_sse2.asm">
-      <Filter>Source Files</Filter>
-    </YASM>
-    <YASM Include="..\..\vp9\encoder\x86\vp9_sad_sse3.asm">
-      <Filter>Source Files</Filter>
-    </YASM>
-    <YASM Include="..\..\vp9\encoder\x86\vp9_sad_sse4.asm">
-      <Filter>Source Files</Filter>
-    </YASM>
-    <YASM Include="..\..\vp9\encoder\x86\vp9_sad_ssse3.asm">
-      <Filter>Source Files</Filter>
-    </YASM>
-    <YASM Include="..\..\vp9\encoder\x86\vp9_ssim_opt_x86_64.asm">
-      <Filter>Source Files</Filter>
-    </YASM>
-    <YASM Include="..\..\vp9\encoder\x86\vp9_subpel_variance.asm">
-      <Filter>Source Files</Filter>
-    </YASM>
-    <YASM Include="..\..\vp9\encoder\x86\vp9_subtract_sse2.asm">
       <Filter>Source Files</Filter>
     </YASM>
     <YASM Include="..\..\vp9\encoder\x86\vp9_temporal_filter_apply_sse2.asm">
@@ -1234,6 +1186,111 @@
       <Filter>Source Files</Filter>
     </YASM>
     <YASM Include="..\..\vpx_ports\x86_abi_support.asm">
+      <Filter>Source Files</Filter>
+    </YASM>
+    <YASM Include="..\..\vp8\common\x86\copy_sse2.asm">
+      <Filter>Source Files</Filter>
+    </YASM>
+    <YASM Include="..\..\vp8\common\x86\copy_sse3.asm">
+      <Filter>Source Files</Filter>
+    </YASM>
+    <YASM Include="..\..\vp9\encoder\x86\vp9_dct_sse2.asm">
+      <Filter>Source Files</Filter>
+    </YASM>
+    <YASM Include="..\..\vp9\encoder\x86\vp9_highbd_error_avx.asm">
+      <Filter>Source Files</Filter>
+    </YASM>
+    <YASM Include="..\..\vp9\encoder\x86\vp9_highbd_error_sse2.asm">
+      <Filter>Source Files</Filter>
+    </YASM>
+    <YASM Include="..\..\vpx_dsp\x86\add_noise_sse2.asm">
+      <Filter>Source Files</Filter>
+    </YASM>
+    <YASM Include="..\..\vpx_dsp\x86\avg_ssse3_x86_64.asm">
+      <Filter>Source Files</Filter>
+    </YASM>
+    <YASM Include="..\..\vpx_dsp\x86\deblock_sse2.asm">
+      <Filter>Source Files</Filter>
+    </YASM>
+    <YASM Include="..\..\vpx_dsp\x86\fwd_txfm_ssse3_x86_64.asm">
+      <Filter>Source Files</Filter>
+    </YASM>
+    <YASM Include="..\..\vpx_dsp\x86\highbd_intrapred_sse2.asm">
+      <Filter>Source Files</Filter>
+    </YASM>
+    <YASM Include="..\..\vpx_dsp\x86\highbd_sad4d_sse2.asm">
+      <Filter>Source Files</Filter>
+    </YASM>
+    <YASM Include="..\..\vpx_dsp\x86\highbd_sad_sse2.asm">
+      <Filter>Source Files</Filter>
+    </YASM>
+    <YASM Include="..\..\vpx_dsp\x86\highbd_subpel_variance_impl_sse2.asm">
+      <Filter>Source Files</Filter>
+    </YASM>
+    <YASM Include="..\..\vpx_dsp\x86\highbd_variance_impl_sse2.asm">
+      <Filter>Source Files</Filter>
+    </YASM>
+    <YASM Include="..\..\vpx_dsp\x86\intrapred_sse2.asm">
+      <Filter>Source Files</Filter>
+    </YASM>
+    <YASM Include="..\..\vpx_dsp\x86\intrapred_ssse3.asm">
+      <Filter>Source Files</Filter>
+    </YASM>
+    <YASM Include="..\..\vpx_dsp\x86\inv_txfm_ssse3_x86_64.asm">
+      <Filter>Source Files</Filter>
+    </YASM>
+    <YASM Include="..\..\vpx_dsp\x86\inv_wht_sse2.asm">
+      <Filter>Source Files</Filter>
+    </YASM>
+    <YASM Include="..\..\vpx_dsp\x86\quantize_avx_x86_64.asm">
+      <Filter>Source Files</Filter>
+    </YASM>
+    <YASM Include="..\..\vpx_dsp\x86\quantize_ssse3_x86_64.asm">
+      <Filter>Source Files</Filter>
+    </YASM>
+    <YASM Include="..\..\vpx_dsp\x86\sad4d_sse2.asm">
+      <Filter>Source Files</Filter>
+    </YASM>
+    <YASM Include="..\..\vpx_dsp\x86\sad_sse2.asm">
+      <Filter>Source Files</Filter>
+    </YASM>
+    <YASM Include="..\..\vpx_dsp\x86\sad_sse3.asm">
+      <Filter>Source Files</Filter>
+    </YASM>
+    <YASM Include="..\..\vpx_dsp\x86\sad_sse4.asm">
+      <Filter>Source Files</Filter>
+    </YASM>
+    <YASM Include="..\..\vpx_dsp\x86\sad_ssse3.asm">
+      <Filter>Source Files</Filter>
+    </YASM>
+    <YASM Include="..\..\vpx_dsp\x86\ssim_opt_x86_64.asm">
+      <Filter>Source Files</Filter>
+    </YASM>
+    <YASM Include="..\..\vpx_dsp\x86\subpel_variance_sse2.asm">
+      <Filter>Source Files</Filter>
+    </YASM>
+    <YASM Include="..\..\vpx_dsp\x86\subtract_sse2.asm">
+      <Filter>Source Files</Filter>
+    </YASM>
+    <YASM Include="..\..\vpx_dsp\x86\vpx_convolve_copy_sse2.asm">
+      <Filter>Source Files</Filter>
+    </YASM>
+    <YASM Include="..\..\vpx_dsp\x86\vpx_high_subpixel_8t_sse2.asm">
+      <Filter>Source Files</Filter>
+    </YASM>
+    <YASM Include="..\..\vpx_dsp\x86\vpx_high_subpixel_bilinear_sse2.asm">
+      <Filter>Source Files</Filter>
+    </YASM>
+    <YASM Include="..\..\vpx_dsp\x86\vpx_subpixel_8t_sse2.asm">
+      <Filter>Source Files</Filter>
+    </YASM>
+    <YASM Include="..\..\vpx_dsp\x86\vpx_subpixel_8t_ssse3.asm">
+      <Filter>Source Files</Filter>
+    </YASM>
+    <YASM Include="..\..\vpx_dsp\x86\vpx_subpixel_bilinear_sse2.asm">
+      <Filter>Source Files</Filter>
+    </YASM>
+    <YASM Include="..\..\vpx_dsp\x86\vpx_subpixel_bilinear_ssse3.asm">
       <Filter>Source Files</Filter>
     </YASM>
   </ItemGroup>
